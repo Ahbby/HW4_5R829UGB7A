@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -20,7 +22,12 @@ body {
     padding-top: 0.6em;
     margin-left: 0.5em;
     box-shadow: 1px 4px 1px brown;
-    border-radius: 0.1em;
+    border-radius:2px 1px 1px 1.1em;
+    box-shadow: 1px 4px 1px brown;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Tangerine', serif;
+    text-shadow: 4px 2px 2px #aaa;
+    font-weight: 700;
 }
 
 .text {
@@ -35,13 +42,13 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 3em;
-    margin-left: 9em;
+    /* margin-left: 3em; */
 }
 
 
 .cases {
     width: 14em;
-    box-shadow: 1px 2px #f19090;
+    box-shadow: 4px 4px #f19090;
     border: 0.1px solid #f5bbbb;
     padding-bottom: 2em;
     padding-left: 0.5em;
@@ -64,8 +71,12 @@ body {
 .data {
     display: flex;
     justify-content: space-between;
-    margin-left: -132px;
+    margin-left: 108px;
     
+}
+
+.imj{
+    margin-left: 2em;
 }
 
 #header1{
@@ -73,29 +84,33 @@ body {
 }
 
 .data table {
-    width: 63em;
-    margin-left: 9em;
+    width: 60em;
+    margin-left: 1em;
 }
 
 .tips {
-    width: 14.8em;
+    width: 15.8em;
     border: 2px solid #e22198;
-    border-radius: 20px;
+    border-radius: 2px;
     margin-right: 3.8em;
     margin-bottom: 8em;
-    height: 11em;
+    height: 15em;
     margin-top: 12em;
+    background-color: lightpink;
+    
 }
 
 .tips p {
     text-align: center;
-    color: #dc143c;
+    color: #000;
     border: .1px solid #e49191;
     background-color: #e49191;
     font-weight: 800;
-    width: 12em;
-    margin-left: 1em;
-    border-radius: 5px;
+    width: 253px;
+    margin-left: -1px;
+    border-radius: 2px;
+    height: 36px;
+    margin-top: 0px;
 }
 
 td, th {
